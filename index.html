@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="body">
+    <h1 id="h1-claro">Calculadora</h1>
+    <label class="switch">
+        <input type="checkbox" id="mode">
+        <span class="slider round"></span>
+    </label><p id="texto-claro">Modo Oscuro</p>
+    <br><br>
+    <div id="calculadora">
+        <div id="pantalla"></div><br>
+        <div id="teclado">
+            <input type="button" value="(" class="operations">
+            <input type="button" value=")" class="operations">
+            <button class="erase"><img src="./img/backspace-arrow_icon-icons.com_72865.png" alt=""></button>
+            <input type="button" value="AC" class="erase">
+            <input type="button" value="7" class="numbers">
+            <input type="button" value="8" class="numbers">
+            <input type="button" value="9" class="numbers">
+            <input type="button" value="/" class="operations">
+            <input type="button" value="4" class="numbers">
+            <input type="button" value="5" class="numbers">
+            <input type="button" value="6" class="numbers">
+            <input type="button" value="x" class="operations">
+            <input type="button" value="1" class="numbers">
+            <input type="button" value="2" class="numbers">
+            <input type="button" value="3" class="numbers">
+            <input type="button" value="-" class="operations">
+            <input type="button" value="0" class="numbers">
+            <input type="button" value="." class="numbers">
+            <input type="button" value="=" id="igual">
+            <input type="button" value="+" class="operations">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
